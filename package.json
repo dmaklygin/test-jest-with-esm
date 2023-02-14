@@ -1,0 +1,22 @@
+{
+  "name": "check-jest-esm",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' yarn jest"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "^2.16.5",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "@repobuddy/jest": "^3.0.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
